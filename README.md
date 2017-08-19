@@ -5,7 +5,9 @@
 ``
 A Open-Source Substratum theme made with ❤️ by #TEAMCARDINAL
 ``
-[![Build Status](https://travis-ci.org/Adarsh-MR/packages_apps_Margarita.svg?branch=master)](https://travis-ci.org/Adarsh-MR/packages_apps_Margarita)
+
+[![Build Status](https://travis-ci.org/Adarsh-MR/packages_apps_Margarita.svg?branch=n7x)](https://travis-ci.org/Adarsh-MR/packages_apps_Margarita)
+
 
 ## Contributors
 - **[@Adarsh-MR](https://github.com/Adarsh-MR)**
