@@ -26,4 +26,4 @@ env:
   global:
   - secure: "g7JbUP2do/UCPsu/v+qTIMBIO75szrp7LyiTSVjUAz4DIk8xrNksiigCrpFb0FuS2uQ8ykWDfTDDKnAB0ex1apeNW4l6bb+YQdwvUd93DvX6xJcKtGUAFnoKFmVW9foUEXaemYJ06Ztph8OKfEQhHMlBzUPyGcfcUBBaODDU5Ow60JbWDgXvWRdUjhVqw0RmAJXqnYl5OQJvH2vyqqQ54Eh0z71Xxv+tQxFthIDPrWS7iNhp/ACZPKCtEnWn3Mt3V8yMIx6w+Lz6GLr/5ps2t5UCpQCSc3Mri3sFDI0GtG/g93PWi31YR1tAV+e7g/9vna9liktOkQxjBr8FIiy8uo4xLn+Fj2c6MD+x0jC3EHERYG2vMjXYpHvZHg9bpwJ+c6gOKUvRN/wk/yAxBlZPVAQmPaEAnIrCrKM8C4WSDlGb2BoiE9dZORBlLlO2HVRzJ07o1YIroEhxWbVHFPGQjXUsMEd+VDpFSsjFjSQqrXAmGG8ddc+7ZgLHQEXEWrseEh3Lyu441wllP8qFVGdKl3iT7wVz5OyHE6066DM+T7GuEpQjEuRoGP43I+gCAvQ5iK3IxBfxinD0wXOurtXfyXjOz4/n1pa3BMrJNc7AGkQmTz115DOgL8pQuxLRfTl4yI5O8LWp20b+0wSWuz27L+jGyn2CWa0SBsxtyRYouCY="
 after_success:
-- curl https://slack.com/api/files.upload -F token=${TOKEN} -F channels=#margarita -F title=Margarita-debug-$(date +"%m-%d-%H:%M").apk -F filename=app-debug.apk -F file=@app/build/outputs/apk/debug/app-debug.apk
+- curl https://slack.com/api/files.upload -F token=${TOKEN} -F channels=#margarita -F title=Margarita-debug-$(date +"%Y%m%d-%H:%M").apk -F filename=app-debug.apk -F file=@app/build/outputs/apk/debug/app-debug.apk
